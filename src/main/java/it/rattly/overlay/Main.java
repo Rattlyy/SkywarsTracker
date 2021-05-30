@@ -9,6 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Main {
+    public static JFrame frame;
     public static JLabel stars;
     public static JLabel kills;
     public static JLabel deaths;
@@ -19,7 +20,7 @@ public class Main {
     
     @SneakyThrows
     private static void createAndShowGUI() {
-        JFrame frame = new JFrame("");
+        frame = new JFrame("");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setAlwaysOnTop(true);
         frame.setUndecorated(true);

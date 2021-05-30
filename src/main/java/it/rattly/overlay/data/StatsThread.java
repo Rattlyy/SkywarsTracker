@@ -21,6 +21,8 @@ public class StatsThread extends Thread {
                 Main.losses.setText("Losses: " + Stats.losses);
                 Main.kdr.setText("KDR: " + Stats.kdr);
                 Main.wlr.setText("WLR: " + Stats.wlr);
+
+                Main.frame.pack();
             }
         }
     }
